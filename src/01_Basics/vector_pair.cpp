@@ -5,19 +5,11 @@
 using namespace std;
 
 int main() {
-    char ceshi[20];
-    cin >> ceshi;
-
-    cout << "1111" << endl;
-
     int n, m; // n是顶点数，m是边数
     cin >> n >> m;
 
-     // 清空输入缓冲区
-    cin.ignore();
-
-    vector<vector<pair<int, int>>> adj(n + 1);
-    //vector<pair<int, int>> adj[n + 1];
+    //vector<pair<int, int>> adj[n + 1]; // 报错
+    vector<vector<pair<int, int>>> adj(n + 1);   
 
     for (int i = 0; i < m; ++i) {
         int u, v, w; // 从u到v有一条边，边权为w

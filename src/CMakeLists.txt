@@ -15,3 +15,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 # add Chapter projects
 add_subdirectory(01_Basics)
+add_subdirectory(02_Algorithms)
