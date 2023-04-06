@@ -8,8 +8,12 @@ project("02_Algorithms")
 
 # 生成可执行文件
 # add_executable( 02_Algorithms main.cpp Demo.cpp Demo.h )
-aux_source_directory(${PROJECT_SOURCE_DIR} sourcefiles)
-add_executable( 02_Algorithms ${sourcefiles} )
+# aux_source_directory(${PROJECT_SOURCE_DIR} sourcefiles)
+# add_executable( 02_Algorithms ${sourcefiles} )
+add_executable( 02_Algorithms_Dijkstra Dijkstra.cpp )
+add_executable( 02_Algorithms_NegligenceProposition NegligenceProposition.cpp )
+add_executable( 02_Algorithms_SocialTerrorismParty SocialTerrorismParty.cpp )
+add_executable( 02_Algorithms_HungaryMatch HungaryMatch.cpp )
 
 # 规定.h头文件路径
 include_directories(${PROJECT_SOURCE_DIR})

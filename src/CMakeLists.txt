@@ -11,7 +11,7 @@ set(project_name "CPlusPlusDemosSimple")
 project("${project_name}")
 
 # this is a C++11 project
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 # add Chapter projects
 add_subdirectory(01_Basics)

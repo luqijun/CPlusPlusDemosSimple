@@ -8,8 +8,10 @@ project("01_Basics")
 
 # 生成可执行文件
 # add_executable( 01_Basics main.cpp Demo.cpp Demo.h )
-aux_source_directory(${PROJECT_SOURCE_DIR} sourcefiles)
-add_executable( 01_Basics ${sourcefiles} )
+# aux_source_directory(${PROJECT_SOURCE_DIR} sourcefiles)
+# add_executable( 01_Basics ${sourcefiles} )
+add_executable( 01_Basics_vector_pair vector_pair.cpp)
+add_executable( 01_Basics_Operator Operator.cpp)
 
 # 规定.h头文件路径
 include_directories(${PROJECT_SOURCE_DIR})
