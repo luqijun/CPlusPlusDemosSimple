@@ -128,7 +128,7 @@ int HungaryMatch(bool maxsum = true)
 7 5 3 4 2
 6 3 2 2 5
 8 4 5 4 7
-//执行bestmatch (true) ，结果为 29
+//执行HungaryMatch (true) ，结果为 29
 */
 
 int main()

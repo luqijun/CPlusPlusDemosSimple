@@ -12,8 +12,9 @@ project("02_Algorithms")
 # add_executable( 02_Algorithms ${sourcefiles} )
 add_executable( 02_Algorithms_Dijkstra Dijkstra.cpp )
 add_executable( 02_Algorithms_NegligenceProposition NegligenceProposition.cpp )
-add_executable( 02_Algorithms_SocialTerrorismParty SocialTerrorismParty.cpp )
 add_executable( 02_Algorithms_HungaryMatch HungaryMatch.cpp )
+add_executable( 02_Algorithms_HungaryMatch1 HungaryMatch1.cpp )
+add_executable( 02_Algorithms_MaxCommonSubsequence MaxCommonSubsequence.cpp )
 
 # 规定.h头文件路径
 include_directories(${PROJECT_SOURCE_DIR})
